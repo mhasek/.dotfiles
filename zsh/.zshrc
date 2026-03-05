@@ -25,5 +25,7 @@ if [[ "$TERM_PROGRAM" == "ghostty" ]]; then
     export TERM=xterm-256color
 fi
 
+alias lg="lazygit"
+
 # Homebrew
 export HOMEBREW_NO_ENV_HINTS=1
