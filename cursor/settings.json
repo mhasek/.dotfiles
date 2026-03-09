@@ -30,9 +30,10 @@
     "security.workspace.trust.untrustedFiles": "open",
     "terminal.external.linuxExec": "ghostty",
     "remote.autoForwardPortsSource": "hybrid",
-    "workbench.iconTheme": "Monokai Pro (Filter Machine) Icons",
+    "editor.inlayHints.enabled": "off",
     "cursor.composer.shouldChimeAfterChatFinishes": true,
     "cursor.cpp.enablePartialAccepts": true,
     "jupyter.enableExtendedPythonKernelCompletions": true,
-    "python.languageServer": "None"
+    "python.languageServer": "None",
+    ""
 }

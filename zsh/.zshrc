@@ -29,3 +29,5 @@ alias lg="lazygit"
 
 # Homebrew
 export HOMEBREW_NO_ENV_HINTS=1
+
+export XLA_FLAGS="--xla_backend_extra_options=xla_cpu_disable_new_fusion_emitters=true"
