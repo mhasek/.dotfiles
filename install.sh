@@ -89,6 +89,9 @@ symlink_configs() {
     link_file "$DOTFILES_DIR/git/.gitconfig"        "$HOME/.gitconfig"
     link_file "$DOTFILES_DIR/git/.gitignore_global"  "$HOME/.gitignore_global"
 
+    # tmux
+    link_file "$DOTFILES_DIR/tmux/tmux.conf" "$HOME/.config/tmux/tmux.conf"
+
     # Ghostty
     link_file "$DOTFILES_DIR/ghostty/config" "$HOME/.config/ghostty/config"
 
