@@ -1,6 +1,6 @@
 [user]
-	name = Tarik Kelestemur
-	email = tkelestemur@gmail.com
+	name = Mustafa Hasekioglu
+	email = mhasek@ekarobotics.com
 [filter "lfs"]
 	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f
@@ -28,3 +28,11 @@
 	rebase = false
 [init]
 	defaultBranch = main
+[credential]
+	helper = osxkeychain
+[credential "https://github.com"]
+	helper = 
+	helper = !/opt/homebrew/bin/gh auth git-credential
+[credential "https://gist.github.com"]
+	helper = 
+	helper = !/opt/homebrew/bin/gh auth git-credential

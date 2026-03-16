@@ -30,4 +30,8 @@ alias lg="lazygit"
 # Homebrew
 export HOMEBREW_NO_ENV_HINTS=1
 
+export PATH=/opt/homebrew/share/google-cloud-sdk/bin:"$PATH"
 export XLA_FLAGS="--xla_backend_extra_options=xla_cpu_disable_new_fusion_emitters=true"
+export PATH="$HOME/.local/bin:$PATH"
+
+source $HOME/aliases.zsh
