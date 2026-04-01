@@ -1,5 +1,5 @@
 {
-    "workbench.activityBar.orientation": "vertical",
+    "workbench.startupEditor": "none",
     "workbench.editor.enablePreview": false,
     "files.autoSave": "afterDelay",
     "files.autoSaveDelay": 100,
@@ -8,12 +8,7 @@
         "**/.idea": true,
         "**/.vscode": true,
         "**/*.ipynb_checkpoints": true,
-        "**/*.pyc": true,
-        "**/.venv": true,
-        "**/.ruff_cache": true,
-        "**/.DS_Store": true,
-        "**/.mypy_cache": true,
-        "**/.pytest_cache": true
+        "**/*.pyc": true
     },
     "explorer.confirmDragAndDrop": false,
     "git.openRepositoryInParentFolders": "never",
@@ -23,6 +18,7 @@
     "editor.renderControlCharacters": false,
     "editor.folding": false,
     "editor.glyphMargin": false,
+    "editor.inlayHints.enabled": "off",
     "explorer.confirmDelete": false,
     "terminal.integrated.sendKeybindingsToShell": false,
     "terminal.integrated.inheritEnv": false,
@@ -30,10 +26,17 @@
     "security.workspace.trust.untrustedFiles": "open",
     "terminal.external.linuxExec": "ghostty",
     "remote.autoForwardPortsSource": "hybrid",
-    "editor.inlayHints.enabled": "off",
-    "cursor.composer.shouldChimeAfterChatFinishes": true,
-    "cursor.cpp.enablePartialAccepts": true,
-    "jupyter.enableExtendedPythonKernelCompletions": true,
-    "python.languageServer": "None",
-    ""
+    "workbench.colorTheme": "Default Dark+",
+    "workbench.iconTheme": "Monokai Pro (Filter Octagon) Icons",
+    "github.copilot.nextEditSuggestions.enabled": true,
+    "security.promptForLocalFileProtocolHandling": false,
+    "claudeCode.preferredLocation": "panel",
+    "python.defaultInterpreterPath": "/opt/homebrew/bin/python3.13",
+    "markdown.math.enabled": true,
+    "markdown-preview-enhanced.enablePreviewZenMode": false,
+    "markdown-preview-enhanced.previewTheme": "monokai.css",
+    "markdown-preview-enhanced.codeBlockTheme": "github-dark.css",
+    "files.associations": {
+        "*.toml": "toml"
+    }
 }

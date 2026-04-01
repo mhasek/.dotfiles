@@ -42,5 +42,15 @@
     {
         "key": "ctrl+5",
         "command": "-workbench.action.openEditorAtIndex5"
+    },
+    {
+        "key": "ctrl+shift+right",
+        "command": "-editor.action.smartSelect.expand",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+shift+left",
+        "command": "-editor.action.smartSelect.shrink",
+        "when": "editorTextFocus"
     }
 ]
