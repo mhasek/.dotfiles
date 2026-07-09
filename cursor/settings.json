@@ -12,7 +12,7 @@
     },
     "explorer.confirmDragAndDrop": false,
     "git.openRepositoryInParentFolders": "never",
-    "editor.minimap.enabled": false,
+    "editor.minimap.enabled": true,
     "editor.renderWhitespace": "none",
     "editor.inlineSuggest.enabled": true,
     "editor.renderControlCharacters": false,
@@ -26,7 +26,6 @@
     "security.workspace.trust.untrustedFiles": "open",
     "terminal.external.linuxExec": "ghostty",
     "remote.autoForwardPortsSource": "hybrid",
-    "workbench.colorTheme": "Default Dark+",
     "workbench.iconTheme": "Monokai Pro (Filter Octagon) Icons",
     "github.copilot.nextEditSuggestions.enabled": true,
     "security.promptForLocalFileProtocolHandling": false,
@@ -38,5 +37,16 @@
     "markdown-preview-enhanced.codeBlockTheme": "github-dark.css",
     "files.associations": {
         "*.toml": "toml"
-    }
+    },
+    "remote.SSH.remotePlatform": {
+        "tarik-g4.us-east1-b.eka-robotics": "linux",
+        "eka-control-4": "linux",
+        "192.168.1.104": "linux"
+    },
+    "[python]": {
+        "editor.defaultFormatter": "charliermarsh.ruff"
+    },
+    "workbench.activityBar.orientation": "vertical",
+    "window.autoDetectColorScheme": false,
+    "workbench.colorTheme": "Default Dark Modern"
 }

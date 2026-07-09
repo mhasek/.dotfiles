@@ -25,7 +25,7 @@
 	side-by-side = true
 	line-numbers = true
 [pull]
-	rebase = false
+	rebase = true
 [init]
 	defaultBranch = main
 [credential]

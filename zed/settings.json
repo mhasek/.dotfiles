@@ -1,9 +1,39 @@
 {
+    "agent": {
+        "default_profile": "minimal",
+        "default_model": {
+            "provider": "google",
+            "model": "gemini-3.1-pro-preview",
+            "enable_thinking": true
+        },
+        "favorite_models": [],
+        "model_parameters": []
+    },
+    "session": {
+        "trust_all_worktrees": true
+    },
+    "preview_tabs": {
+        "enabled": false
+    },
+    "minimap": {
+        "show": "never"
+    },
+    "autosave": {
+        "after_delay": {
+            "milliseconds": 100
+        }
+    },
+    "file_types": {
+        "toml": [
+            "*.toml"
+        ]
+    },
+    "show_whitespaces": "none",
+    "show_edit_predictions": true,
+    "base_keymap": "VSCode",
     "agent_servers": {
-        "claude": {
-            "favorite_config_option_values": {
-                "mode": ["bypassPermissions"]
-            }
+        "cursor": {
+            "type": "registry"
         }
     },
     "telemetry": {
